@@ -1,0 +1,169 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #1b4a75, #8fc2f1);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgba(32, 116, 241, 0.6);
+    margin-top: 20px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    height: 100%;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(32, 116, 241, 0.6);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 4px;
+    background-color: #0a3d81;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.indicator.active {
+    background-color: #fff;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #000000;
+}
+
+.love-message{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    .love-message {
+        margin-top: 20px;
+        background-color: rgba(4, 59, 104, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .love-message h2 {
+        font-size: 2em;
+        margin-bottom: 10px;
+        color: #05205c;
+    }
+    
+    .love-message p {
+        font-size: 1.2em;
+        line-height: 1.6;
+        color: #ffffff;
+    }
+    
+    .love-button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #fefeff;
+        border: none;
+        border-radius: 5px;
+        color: #05205c;
+        font-size: 1.1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        text-decoration: none;
+    }
+    
+    .love-button:hover {
+        background-color:  #05205c;
+        color: #ffffff;
+        transform: scale(1.05);
+    }
+    
+    footer {
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    
+    footer p {
+        margin: 0;
+        font-size: 1em;
+        color: #000000;
+    }
